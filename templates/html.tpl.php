@@ -22,7 +22,7 @@
 <?php print $page_top; //stuff from modules always render first ?>
 <?php print $page; // uses the page.tpl ?>
 <script type="text/javascript">
-  var theme_url = '<?php print path_to_theme(); ?>/';
+  var theme_url = '<?php print $keel_path; ?>/';
 </script>
 <?php print $scripts; ?>
 <?php print $page_bottom; //stuff from modules always render last ?>
